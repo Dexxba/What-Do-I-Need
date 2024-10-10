@@ -1,80 +1,81 @@
-# What do I need - Einkaufslisten App
+Here is the English translation of your text:
 
-Dies ist eine mobile Anwendung zur Verwaltung von Einkaufslisten, die es Benutzern ermöglicht, ihre Einkäufe zu kategorisieren, Listen zu speichern und den Verlauf ihrer Einkäufe zu durchsuchen.
+# What do I need - Shopping List App
+
+This is a mobile application for managing shopping lists, allowing users to categorize their purchases, save lists, and browse the history of their shopping activities.
 
 ## Features
-- Kategorien für Einkäufe hinzufügen
-- Produkte zu Kategorien hinzufügen
-- Einkaufslisten für ein bestimmtes Datum speichern
-- Einkaufslistenverlauf anzeigen und einzelne Listen laden
-- Möglichkeit, einzelne Listen oder den gesamten Verlauf zu löschen
-- Einfaches und benutzerfreundliches Interface mit Swipe-Gesten
+- Add categories for purchases
+- Add products to categories
+- Save shopping lists for a specific date
+- View shopping list history and load individual lists
+- Ability to delete individual lists or the entire history
+- Simple and user-friendly interface with swipe gestures
 
 ## Installation
 
-### Voraussetzungen
-- Installiertes Node.js und npm
-- Installiertes Expo CLI
+### Requirements
+- Installed Node.js and npm
+- Installed Expo CLI
 
-### Schritte zur Installation
+### Installation steps
 
-1. **Repository klonen***
+1. **Clone the repository**
 
-   Zuerst klonen Sie das Projekt-Repository auf Ihr lokales System:
+   First, clone the project repository to your local system:
    ```bash
    git clone https://github.com/Dexxba/What-Do-I-Need.git
    ```
 
-2. **In das Projektverzeichnis wechseln**
+2. **Navigate to the project directory**
 
-   Wechseln Sie in das geklonte Verzeichnis:
+   Change into the cloned directory:
    ```bash
    cd What-Do-I-Need
    ```
 
-3. **Abhängigkeiten installieren**
+3. **Install dependencies**
 
-   Installieren Sie die notwendigen Pakete und Abhängigkeiten:
+   Install the necessary packages and dependencies:
    ```bash
    npm install
    ```
 
-4. **Expo starten**
+4. **Start Expo**
 
-   Starten Sie Expo, um die Anwendung auf einem Gerät oder Emulator auszuführen:
+   Start Expo to run the app on a device or emulator:
    ```bash
    npm start
    ```
 
-5. **Anwendung auf einem Gerät ausführen**
+5. **Run the app on a device**
 
-   - Verwenden Sie die Expo Go App auf Ihrem Mobilgerät, um die App zu testen. Scannen Sie den QR-Code, der im Browser angezeigt wird, oder verwenden Sie den Emulator.
+   - Use the Expo Go app on your mobile device to test the app. Scan the QR code displayed in the browser or use the emulator.
 
-### App-Struktur
-- **HomeScreen**: Die Startseite, auf der der Benutzer die Optionen hat, eine neue Einkaufsliste zu erstellen oder den Einkaufsverlauf anzuzeigen.
-- **ShopScreen**: Hier erstellt der Benutzer eine Einkaufsliste, fügt Kategorien und Produkte hinzu und speichert die Liste.
-- **HistoryScreen**: Zeigt alle gespeicherten Listen an. Der Benutzer kann alte Listen laden, einzelne Listen löschen oder den gesamten Verlauf löschen.
+### App Structure
+- **HomeScreen**: The home page where the user can choose to create a new shopping list or view the shopping history.
+- **ShopScreen**: This is where the user creates a shopping list, adds categories and products, and saves the list.
+- **HistoryScreen**: Displays all saved lists. The user can load old lists, delete individual lists, or clear the entire history.
 
-## Verfügbare Befehle
+## Available Commands
 
-- `npm start`: Startet den Entwicklungsserver.
-- `npm run android`: Baut und startet die Anwendung auf einem Android-Emulator.
-- `npm run ios`: Baut und startet die Anwendung auf einem iOS-Simulator (nur auf macOS verfügbar).
-- `npm run build`: Erstellt eine Produktionsversion der Anwendung.
+- `npm start`: Starts the development server.
+- `npm run android`: Builds and runs the app on an Android emulator.
+- `npm run ios`: Builds and runs the app on an iOS simulator (available only on macOS).
+- `npm run build`: Builds a production version of the app.
 
-## Technologien
-- **React Native**: Für die plattformübergreifende Entwicklung.
-- **Expo**: Für die schnelle Entwicklung und das Testen der App.
-- **AsyncStorage**: Zur Speicherung der Einkaufsdaten lokal auf dem Gerät.
-- **DateTimePicker**: Zum Auswählen von Einkaufsdaten.
-- **React Navigation**: Für die Navigation zwischen den Bildschirmen.
-- **MaterialCommunityIcons**: Für ansprechende Icons in der App.
+## Technologies
+- **React Native**: For cross-platform development.
+- **Expo**: For rapid development and testing of the app.
+- **AsyncStorage**: For local storage of shopping data on the device.
+- **DateTimePicker**: For selecting shopping dates.
+- **React Navigation**: For navigating between screens.
+- **MaterialCommunityIcons**: For appealing icons within the app.
 
-## Weiterentwicklung
+## Further Development
 
-Wenn Sie zur Weiterentwicklung der App beitragen möchten, können Sie gerne einen Pull-Request einreichen oder uns kontaktieren. Änderungen und Verbesserungen sind stets willkommen!
+If you wish to contribute to the app's development, feel free to submit a pull request or contact us. Changes and improvements are always welcome!
 
-## Lizenz
+## License
 
-Dieses Projekt steht unter der MIT-Lizenz. Weitere Informationen finden Sie in der `LICENSE`-Datei.
-
+This project is licensed under the MIT license. For more details, refer to the `LICENSE` file.

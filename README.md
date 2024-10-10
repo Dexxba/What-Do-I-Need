@@ -1,50 +1,80 @@
-# Welcome to your Expo app 👋
+# What do I need - Einkaufslisten App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Dies ist eine mobile Anwendung zur Verwaltung von Einkaufslisten, die es Benutzern ermöglicht, ihre Einkäufe zu kategorisieren, Listen zu speichern und den Verlauf ihrer Einkäufe zu durchsuchen.
 
-## Get started
+## Features
+- Kategorien für Einkäufe hinzufügen
+- Produkte zu Kategorien hinzufügen
+- Einkaufslisten für ein bestimmtes Datum speichern
+- Einkaufslistenverlauf anzeigen und einzelne Listen laden
+- Möglichkeit, einzelne Listen oder den gesamten Verlauf zu löschen
+- Einfaches und benutzerfreundliches Interface mit Swipe-Gesten
 
-1. Install dependencies
+## Installation
 
+### Voraussetzungen
+- Installiertes Node.js und npm
+- Installiertes Expo CLI
+
+### Schritte zur Installation
+
+1. **Repository klonen***
+
+   Zuerst klonen Sie das Projekt-Repository auf Ihr lokales System:
+   ```bash
+   git clone https://github.com/Dexxba/What-Do-I-Need.git
+   ```
+
+2. **In das Projektverzeichnis wechseln**
+
+   Wechseln Sie in das geklonte Verzeichnis:
+   ```bash
+   cd What-Do-I-Need
+   ```
+
+3. **Abhängigkeiten installieren**
+
+   Installieren Sie die notwendigen Pakete und Abhängigkeiten:
    ```bash
    npm install
    ```
 
-2. Start the app
+4. **Expo starten**
 
+   Starten Sie Expo, um die Anwendung auf einem Gerät oder Emulator auszuführen:
    ```bash
-    npx expo start
+   npm start
    ```
 
-In the output, you'll find options to open the app in a
+5. **Anwendung auf einem Gerät ausführen**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   - Verwenden Sie die Expo Go App auf Ihrem Mobilgerät, um die App zu testen. Scannen Sie den QR-Code, der im Browser angezeigt wird, oder verwenden Sie den Emulator.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### App-Struktur
+- **HomeScreen**: Die Startseite, auf der der Benutzer die Optionen hat, eine neue Einkaufsliste zu erstellen oder den Einkaufsverlauf anzuzeigen.
+- **ShopScreen**: Hier erstellt der Benutzer eine Einkaufsliste, fügt Kategorien und Produkte hinzu und speichert die Liste.
+- **HistoryScreen**: Zeigt alle gespeicherten Listen an. Der Benutzer kann alte Listen laden, einzelne Listen löschen oder den gesamten Verlauf löschen.
 
-## Get a fresh project
+## Verfügbare Befehle
 
-When you're ready, run:
+- `npm start`: Startet den Entwicklungsserver.
+- `npm run android`: Baut und startet die Anwendung auf einem Android-Emulator.
+- `npm run ios`: Baut und startet die Anwendung auf einem iOS-Simulator (nur auf macOS verfügbar).
+- `npm run build`: Erstellt eine Produktionsversion der Anwendung.
 
-```bash
-npm run reset-project
-```
+## Technologien
+- **React Native**: Für die plattformübergreifende Entwicklung.
+- **Expo**: Für die schnelle Entwicklung und das Testen der App.
+- **AsyncStorage**: Zur Speicherung der Einkaufsdaten lokal auf dem Gerät.
+- **DateTimePicker**: Zum Auswählen von Einkaufsdaten.
+- **React Navigation**: Für die Navigation zwischen den Bildschirmen.
+- **MaterialCommunityIcons**: Für ansprechende Icons in der App.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Weiterentwicklung
 
-## Learn more
+Wenn Sie zur Weiterentwicklung der App beitragen möchten, können Sie gerne einen Pull-Request einreichen oder uns kontaktieren. Änderungen und Verbesserungen sind stets willkommen!
 
-To learn more about developing your project with Expo, look at the following resources:
+## Lizenz
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Dieses Projekt steht unter der MIT-Lizenz. Weitere Informationen finden Sie in der `LICENSE`-Datei.
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
